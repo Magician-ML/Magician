@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magician_LO - Creative Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="magic-sparkles"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="magic-text">欢迎来到我的个人网站</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">首页</a></li>
+            <li><a href="#about" class="nav-link">关于</a></li>
+            <li><a href="#portfolio" class="nav-link">作品集</a></li>
+            <li><a href="#contact" class="nav-link">联系</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="magic-circle"></div>
+        <div class="hero-content">
+            <h1 class="magic-title">
+                <span class="magic-text">Magician_LO</span>
+            </h1>
+            <p class="typing-text">CG Artist | 3D Designer | Motion Designer</p>
+            <div class="magic-buttons">
+                <a href="#portfolio" class="cta-button magic-button">
+                    <span class="button-text">探索作品</span>
+                    <span class="magic-sparkle"></span>
+                </a>
+                <a href="#contact" class="cta-button magic-button secondary">
+                    <span class="button-text">联系我</span>
+                    <span class="magic-sparkle"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title magic-text">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是Magician_LO（廖石生），一位专注于CG和动态设计的电商设计师。擅长将创意转化为引人入胜的视觉体验，专注于产品动态设计和CG创作。</p>
+                    <div class="skills">
+                        <span class="skill-tag magic-tag">Blender</span>
+                        <span class="skill-tag magic-tag">C4D</span>
+                        <span class="skill-tag magic-tag">UE C++</span>
+                        <span class="skill-tag magic-tag">ComfyUI</span>
+                        <span class="skill-tag magic-tag">Python</span>
+                        <span class="skill-tag magic-tag">Adobe Suite</span>
+                        <span class="skill-tag magic-tag">CG设计</span>
+                        <span class="skill-tag magic-tag">动态设计</span>
+                        <span class="skill-tag magic-tag">电商设计</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper magic-frame">
+                        <img src="https://via.placeholder.com/400" alt="Magician_LO">
+                        <div class="image-overlay magic-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title magic-text">作品集</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item magic-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="CG作品">
+                        <div class="portfolio-overlay magic-overlay">
+                            <h3>CG设计</h3>
+                            <p>3D产品展示</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item magic-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="动态设计">
+                        <div class="portfolio-overlay magic-overlay">
+                            <h3>动态设计</h3>
+                            <p>产品动画展示</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item magic-card">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300" alt="电商设计">
+                        <div class="portfolio-overlay magic-overlay">
+                            <h3>电商设计</h3>
+                            <p>产品视觉设计</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title magic-text">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item magic-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>liaoxs886@gmail.com</p>
+                    </div>
+                    <div class="contact-item magic-item">
+                        <i class="fas fa-phone"></i>
+                        <p>13172961819</p>
+                    </div>
+                    <div class="contact-item magic-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>广东省东莞市</p>
+                    </div>
+                </div>
+                <form class="contact-form magic-form">
+                    <input type="text" placeholder="您的姓名" required>
+                    <input type="email" placeholder="您的邮箱" required>
+                    <textarea placeholder="您的留言" required></textarea>
+                    <button type="submit" class="submit-button magic-button">
+                        <span class="button-text">发送消息</span>
+                        <span class="magic-sparkle"></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link magic-link"><i class="fab fa-weixin"></i></a>
+                <a href="#" class="social-link magic-link"><i class="fab fa-weibo"></i></a>
+                <a href="#" class="social-link magic-link"><i class="fab fa-behance"></i></a>
+            </div>
+            <p class="magic-text">&copy; 2024 Magician_LO. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
